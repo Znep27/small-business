@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/small-business/static/css/main.54cecbbb.css",
+    "main.js": "/small-business/static/js/main.56411cf8.js",
+    "static/js/787.74ce4bfb.chunk.js": "/small-business/static/js/787.74ce4bfb.chunk.js",
+    "index.html": "/small-business/index.html",
+    "main.54cecbbb.css.map": "/small-business/static/css/main.54cecbbb.css.map",
+    "main.56411cf8.js.map": "/small-business/static/js/main.56411cf8.js.map",
+    "787.74ce4bfb.chunk.js.map": "/small-business/static/js/787.74ce4bfb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54cecbbb.css",
+    "static/js/main.56411cf8.js"
+  ]
+}
