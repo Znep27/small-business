@@ -1,13 +1,8 @@
 import React from "react";
-// import ListingMap from "./ListingMap";
 
 function Details(props) {
-  // console.log(props);
   const urlStuff = window.location.href.split("/");
   const targetBusiness = urlStuff[urlStuff.length - 1];
-  // this seems insanely hacky, but it works
-  // if there are more path parameters on the end, this would break
-  // maybe I can find a better solution later.
   const business = props.businesses.find(
     (biz) => biz.id === Number(targetBusiness)
   );
@@ -27,10 +22,6 @@ function Details(props) {
         <h3>{business.hours}</h3>
         <p>{business.description}</p>
       </div>
-      {/* <ListingMap
-        address={business.address}
-        style={{ height: "50vh", width: "100%" }}
-      /> */}
     </div>
   );
 }

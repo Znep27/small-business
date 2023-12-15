@@ -33,19 +33,16 @@ const Add = (props) => {
         newId = item.id;
       }
     }
-    // find the largest existing ID, add 1 to it, and make that the new ID
+  
     newId++;
     let newListing = {};
     newListing["id"] = newId;
     for (let item of Object.entries(state)) {
-      // console.log(item);
-      // transfer properties of state object to newListing
       newListing[item[0]] = item[1];
     }
     props.createListing(newListing);
     console.log(`creating new listing:`);
     console.log(newListing);
-    // navigate to root page
     navigate("/");
   };
 

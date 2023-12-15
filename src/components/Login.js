@@ -21,13 +21,9 @@ const Login = (props) => {
   };
 
   const login = (e) => {
-    // console.log(state.username);
-    // console.log(state);
     props.logInUser(state.username);
     console.log(`login form submitted`);
     e.preventDefault();
-    // set cookie here
-    // this maxAge configuration is in seconds, not ms
     document.cookie = cookie.serialize("loggedIn", true, {
       maxAge: 60 * 60,
     });

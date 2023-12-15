@@ -10,7 +10,6 @@ import cookie from "cookie";
 
 const checkAuth = () => {
   const cookies = cookie.parse(document.cookie);
-  // if real auth, checkJWT would occur here, I think.
   return cookies["loggedIn"] ? true : false;
 };
 

@@ -1,5 +1,4 @@
 const initialState = {
-    // Add user property here
     businesses: [
       {
         id: 1,
@@ -11,11 +10,11 @@ const initialState = {
       },
       {
         id: 2,
-        name: "Lucy's Fried Chicken",
+        name: "Joe's Coffee",
         description:
-          "One of Austin's favorite homegrown restaurants, Lucy's Fried Chicken is helmed by local chef James Holmes. The offerings include fresh gulf oysters, an innovative take on comfort food classics, and fried chicken that's pretty dang perfect. Freshly-made sides, salads, and pies round out the menu while the bar offers creative craft cocktails and plenty of cold beer. 7 days a week — lunch, dinner, and weekend brunch.",
-        address: "2218 COLLEGE AVE AUSTIN, TX 78704",
-        hours: "11AM - 9PM",
+          "Stumptown coffee, baked goods & sandwiches in colorful digs with outdoor area for people-watching.",
+        address: "242 W 2nd St, Austin, TX 78701",
+        hours: "7AM - 9PM",
       },
       {
         id: 3,
@@ -27,10 +26,11 @@ const initialState = {
       },
       {
         id: 4,
-        name: "The Little Darlin'",
-        description: `The team of owners collectively wanted to create an inviting bar, serving excellent, locally sourced food, aspiring to preserve a piece of the city that reflects the beautiful, progressive 'melting pot,' that is their/our beloved Austin. With a huge outdoor patio, folks can sip on local, craft beers and cocktails, chow down on locally sourced, delicious, southern flare food, while swinging on a bench swing or parkin' it at a picnic table.`,
-        address: "6507 Circle S Rd, Austin, TX 78745",
-        hours: "11AM - 2AM",
+        name: "Jim's Smokehouse",
+        description: 
+          "Family-owned BBQ, serving high-quality food prepared simply w/ fresh ingredients & quality meats.",
+        address: "6900 Ranch Rd 620 N, Austin, TX 78732",
+        hours: "11AM - 8PM",
       },
     ],
     username: "",

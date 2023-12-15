@@ -1,5 +1,4 @@
 import React from "react";
-// import { Card, CardContent, CardActions, Divider } from "@mui/material";
 import { Link } from "react-router-dom";
 import {
   Table,
@@ -11,7 +10,6 @@ import {
 import DeleteIcon from "@mui/icons-material/Delete";
 
 const Listings = (props) => {
-  // console.log(props);
   return (
     <div className="card-container">
       {props.username && (
